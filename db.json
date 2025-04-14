@@ -1,0 +1,23 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "sentence": "The _ fox _ over the lazy dog.",
+        "options": ["quick", "jumps", "slow", "runs"],
+        "answers": ["quick", "jumps"]
+      },
+      {
+        "id": 2,
+        "sentence": "She _ to the market to _ vegetables.",
+        "options": ["buys", "ran", "buy", "went"],
+        "answers": ["went", "buy"]
+      },
+      {
+        "id": 3,
+        "sentence": "I _ to school and _ my homework.",
+        "options": ["forgot", "walked", "completed", "run"],
+        "answers": ["walked", "completed"]
+      }
+    ]
+  }
+  
