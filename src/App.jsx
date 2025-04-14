@@ -10,14 +10,8 @@ const App = () => {
   const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
-    fetch("/api/questions")
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error("Failed to fetch questions");
-        }
-
-        return res.json();
-      })
+    fetch("/db.json")
+      .then((res) => res.json())
       .then((data) => {
         console.log(data);
         setQuestions(data);
